@@ -1,0 +1,148 @@
+[INFO] Starting HTTP server  on 0.0.0.0:8181
+执行SQL:update content set title='哈哈', content='明明', create_time=now() where id='9'
+连接数据库成功
+表名字是：WebService
+选择数据库成功
+SQL:update content set title='哈哈', content='明明', create_time=now() where id='9' 更新成功
+{"list":[],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"哈哈","time":"2018-05-21 13:19:07","contentId":"9","content":"明明"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:update content set title='哈哈', content='明明', create_time=now() where id='9'
+SQL:update content set title='哈哈', content='明明', create_time=now() where id='9' 更新成功
+{"list":[],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"哈哈","time":"2018-05-21 13:19:07","contentId":"9","content":"明明"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:update content set title='哈哈', content='明明', create_time=now() where id='9'
+SQL:update content set title='哈哈', content='明明', create_time=now() where id='9' 更新成功
+{"list":[],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"哈哈","time":"2018-05-21 13:19:08","contentId":"9","content":"明明"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:update content set title='哈哈', content='明明', create_time=now() where id='9'
+SQL:update content set title='哈哈', content='明明', create_time=now() where id='9' 更新成功
+{"list":[],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"哈哈","time":"2018-05-21 13:19:09","contentId":"9","content":"明明"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select content from content where id='9'
+SQL:select content from content where id='9'查询成功
+{"list":{"content":"明明"},"errorMessage":"","result":"SUCCESS"}
+执行SQL:update content set title='哈哈', content='明明', create_time=now() where id='9'
+SQL:update content set title='哈哈', content='明明', create_time=now() where id='9' 更新成功
+{"list":[],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"哈哈","time":"2018-05-21 13:19:19","contentId":"9","content":"明明"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select content from content where id='9'
+SQL:select content from content where id='9'查询成功
+{"list":{"content":"明明"},"errorMessage":"","result":"SUCCESS"}
+执行SQL:update content set title='哈哈', content='明明看哦', create_time=now() where id='9'
+SQL:update content set title='哈哈', content='明明看哦', create_time=now() where id='9' 更新成功
+{"list":[],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"哈哈","time":"2018-05-21 13:19:26","contentId":"9","content":"明明看哦"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select content from content where id='9'
+SQL:select content from content where id='9'查询成功
+{"list":{"content":"明明看哦"},"errorMessage":"","result":"SUCCESS"}
+执行SQL:select content from content where id='9'
+SQL:select content from content where id='9'查询成功
+{"list":{"content":"明明看哦"},"errorMessage":"","result":"SUCCESS"}
+执行SQL:insert into content (userID, title, content) values ('6', '大海', '这是第二个日记，数字上线')
+插入成功
+{"list":[],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"哈哈","time":"2018-05-21 13:19:26","contentId":"9","content":"明明看哦"},{"title":"大海","time":"2018-05-21 13:23:48","contentId":"10","content":"这是第二个日记，数字上线"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select content from content where id='10'
+SQL:select content from content where id='10'查询成功
+{"list":{"content":"这是第二个日记，数字上线"},"errorMessage":"","result":"SUCCESS"}
+执行SQL:select content from content where id='9'
+SQL:select content from content where id='9'查询成功
+{"list":{"content":"明明看哦"},"errorMessage":"","result":"SUCCESS"}
+执行SQL:select content from content where id='10'
+SQL:select content from content where id='10'查询成功
+{"list":{"content":"这是第二个日记，数字上线"},"errorMessage":"","result":"SUCCESS"}
+执行SQL:update content set title='大海', content='这是第二个日记，数字上线弟弟', create_time=now() where id='10'
+SQL:update content set title='大海', content='这是第二个日记，数字上线弟弟', create_time=now() where id='10' 更新成功
+{"list":[],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"哈哈","time":"2018-05-21 13:19:26","contentId":"9","content":"明明看哦"},{"title":"大海","time":"2018-05-21 13:26:54","contentId":"10","content":"这是第二个日记，数字上线弟弟"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select content from content where id='10'
+SQL:select content from content where id='10'查询成功
+{"list":{"content":"这是第二个日记，数字上线弟弟"},"errorMessage":"","result":"SUCCESS"}
+执行SQL:select content from content where id='10'
+SQL:select content from content where id='10'查询成功
+{"list":{"content":"这是第二个日记，数字上线弟弟"},"errorMessage":"","result":"SUCCESS"}
+执行SQL:update content set title='大海', content='这是第二个日记，数字上线弟弟，山路十八弯', create_time=now() where id='10'
+update content set title='大海', content='这是第二个日记，数字上线弟弟，山路十八弯', create_time=now() where id='10'更新失败
+{"list":[],"errorMessage":"更新失败","result":"FAILE"}
+执行SQL:update content set title='大海', content='这是第二个日记，数字上线弟弟，山路十八', create_time=now() where id='10'
+update content set title='大海', content='这是第二个日记，数字上线弟弟，山路十八', create_time=now() where id='10'更新失败
+{"list":[],"errorMessage":"更新失败","result":"FAILE"}
+执行SQL:update content set title='大海', content='这是第二个日记，数字上线弟弟，山路', create_time=now() where id='10'
+update content set title='大海', content='这是第二个日记，数字上线弟弟，山路', create_time=now() where id='10'更新失败
+{"list":[],"errorMessage":"更新失败","result":"FAILE"}
+执行SQL:update content set title='大海', content='这是第二个日记，数字上线弟弟，山', create_time=now() where id='10'
+SQL:update content set title='大海', content='这是第二个日记，数字上线弟弟，山', create_time=now() where id='10' 更新成功
+{"list":[],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"哈哈","time":"2018-05-21 13:19:26","contentId":"9","content":"明明看哦"},{"title":"大海","time":"2018-05-21 13:27:28","contentId":"10","content":"这是第二个日记，数字上线弟弟，山"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select content from content where id='10'
+SQL:select content from content where id='10'查询成功
+{"list":{"content":"这是第二个日记，数字上线弟弟，山"},"errorMessage":"","result":"SUCCESS"}
+执行SQL:update content set title='大海', content='这是第二个日记，数字上线弟弟哈哈', create_time=now() where id='10'
+SQL:update content set title='大海', content='这是第二个日记，数字上线弟弟哈哈', create_time=now() where id='10' 更新成功
+{"list":[],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"哈哈","time":"2018-05-21 13:19:26","contentId":"9","content":"明明看哦"},{"title":"大海","time":"2018-05-21 13:27:48","contentId":"10","content":"这是第二个日记，数字上线弟弟哈哈"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select content from content where id='10'
+SQL:select content from content where id='10'查询成功
+{"list":{"content":"这是第二个日记，数字上线弟弟哈哈"},"errorMessage":"","result":"SUCCESS"}
+执行SQL:delete from content where id='9'
+SQL:delete from content where id='9' 删除成功
+{"list":[],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"大海","time":"2018-05-21 13:27:48","contentId":"10","content":"这是第二个日记，数字上线弟弟哈哈"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"大海","time":"2018-05-21 13:27:48","contentId":"10","content":"这是第二个日记，数字上线弟弟哈哈"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"大海","time":"2018-05-21 13:27:48","contentId":"10","content":"这是第二个日记，数字上线弟弟哈哈"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"大海","time":"2018-05-21 13:27:48","contentId":"10","content":"这是第二个日记，数字上线弟弟哈哈"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select content from content where id='10'
+SQL:select content from content where id='10'查询成功
+{"list":{"content":"这是第二个日记，数字上线弟弟哈哈"},"errorMessage":"","result":"SUCCESS"}
+执行SQL:update content set title='大海日记', content='这是第二个日记，数字上线弟弟哈哈', create_time=now() where id='10'
+SQL:update content set title='大海日记', content='这是第二个日记，数字上线弟弟哈哈', create_time=now() where id='10' 更新成功
+{"list":[],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select id, title, content, create_time from content where userID='6'
+PerfectMySQL.MySQL
+SQL:select id, title, content, create_time from content where userID='6'查询成功
+{"list":[{"title":"大海日记","time":"2018-05-21 13:28:06","contentId":"10","content":"这是第二个日记，数字上线弟弟哈哈"}],"errorMessage":"","result":"SUCCESS"}
+执行SQL:select content from content where id='10'
+SQL:select content from content where id='10'查询成功
+{"list":{"content":"这是第二个日记，数字上�
